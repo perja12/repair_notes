@@ -23,11 +23,31 @@ Changed all the 6 lamps (6.3v) for the scale indicator and resoldered the connec
 
 Changed capacitors for left and right channel in the output stage of the amplifier. Might not have been necessary to change all of them.
 
-- C801/C802: 2.2uF 100V, Panasonic
-- C803/C804: 22uF 63V, Panasonic 
-- C807/C808: 47uF 63V, KEMET
-- C809/C810: 47uF 63V, KEMET
-- C813/C814: 2200uF 40V, Vishay
+<table>
+    <thead>
+        <tr>
+            <th>Reference designator</th>
+            <th>New value</th>
+            <th>New brand</th>
+            <th>Capacitance of replaced component<th>
+            <th>ESR of replaced component</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>C801/C802</td><td>2.2uF 100V</td><td>Panasonic</td><td>2uF</td><td>>40</td>
+        </tr>
+        <tr>
+            <td>C803/C804</td><td>22uF 63V</td><td>Panasonic</td><td>25uF</td><td>0.9</td>
+        </tr>
+        <tr>
+            <td>C807/C808/C809/C810</td><td>47uF 63V</td><td>KEMET</td><td>25-44uF</td><td>11-32.8</td>
+        </tr>
+        <tr>
+            <td>C813/C814</td><td>2200uF 40V</td><td>Vishay</td><td>2180uF/2193uF</td><td>0, 2.3</td>
+        </tr>
+    </tbody>
+</table>
 
 ![Image of changed capacitors](images/caps_lr.jpg)
 
