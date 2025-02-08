@@ -79,8 +79,10 @@ Used an RF generator (TinySA Ultra) to confirm that the scale for FM and AM are 
 
 Fun project and in overall a good learning experience. Works better than before although the radio section is not aligned.
 
+# Update 8. February 2025
 
+Resoldered the pins for the Phono connector at the rear. Probably caused by too much mechanical stress on the solder joint. Testing revealed that also the Tape connector was having problems with the right channel. Worked fine after resoldering.
 
+![DIN jacks for Phono and Tape](images/phono_tape.jpg)
 
-
-
+The problem will mostly reappear as the ports are really wiggly. One option could be to replace the DIN jack with RCA panel mount jacks, but that is for later.
